@@ -169,9 +169,9 @@ let mensagem = "A idade é: " + idade;
 
 // Resultado: "A idade é: 30"
 console.log(mensagem);
-const tempoObjetivo2 = new Date("2023-12-05T00:00:00");
-const tempoObjetivo3 = new Date("2023-12-30T00:00:00");
-const tempoObjetivo4 = new Date("2024-02-01T00:00:00");
+const tempoObjetivo2 = new Date("2026-12-05T15:30:00"); // 15:30
+const tempoObjetivo3 = new Date("2026-12-30T18:00:00"); // 18:00
+const tempoObjetivo4 = new Date("2026-02-01T09:15:00"); // 09:15
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 contadores[1].textContent = calculaTempo(tempoObjetivo2);
 contadores[2].textContent = calculaTempo(tempoObjetivo3);
